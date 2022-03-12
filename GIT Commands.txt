@@ -1,0 +1,21 @@
+git config --global user.name "username"
+git config --global user.email "email@email.com"
+
+git init (done inside of folder with theme folders)
+git status (shows changes and tracked new changes)
+
+git add \templates\ (adds specific folder or file)
+git add * / git add . (uploads everything to repository)
+
+git commit - m 'Commit notes'
+
+TO CONNECT TO REPOSITORY
+Click on Clone repository and use HTTPS url
+
+git remote add origin https://repositoryurl.com/whatever/shop.git
+
+git remote -v (shows server for pushing and fetching)
+
+git push -f origin master (-f is a force push to overwrite everything)
+
+theme watch - every update that is 
